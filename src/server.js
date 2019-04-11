@@ -16,7 +16,7 @@ io.on("connect", socket => {
 });
 
 mongoose.connect(
-  "mongodb+srv://kelvinfrade:deuslindo@cluster0-jxhrd.mongodb.net/clonedropbox?retryWrites=true",
+  "mongodb+srv://kelvinfrade:deuslindo@cluster0-cymm4.mongodb.net/clonedropbox?retryWrites=true",
   {
     useNewUrlParser: true
   }

@@ -21,7 +21,7 @@ const File = new mongoose.Schema(
 //campo virtual
 
 File.virtual("url").get(function() {
-  const url = process.env.URL || 'http://localhost:3333'
+  const url = process.env.URL || "http://localhost:3333";
   //apostrofo para colocar variavel
   return `${url}/files/${encodeURIComponent(this.path)}`;
 });
