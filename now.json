@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "name": "api-node",
+  "builds": [
+      { "src": "*.js", "use": "@now/node" }
+  ]
+}
