@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "name": "backend-node",
+  "name": "backend-node-api",
   "builds": [
-    { "src": "package.json", "use": "@now/static-build" },
-    { "src": "src/*.js", "use": "@now/node" }
+    { "src": "src/server.js", "use": "@now/node" },
+    { "src": "index.html", "use": "@now/static" }
   ]
 }
